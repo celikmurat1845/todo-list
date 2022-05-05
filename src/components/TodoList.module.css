@@ -1,0 +1,74 @@
+.container {
+  margin: 3rem auto;
+  border: 1px solid #e9e7e7;
+  height: fit-content;
+  width: 45rem;
+  background-color: #e9e7e7;
+  border-radius: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: orange;
+  background-color: #7c7979;
+  border-radius: 2rem;
+}
+
+.input {
+  margin: 1rem 0.5rem;
+  width: 25rem;
+  height: 1rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.date {
+  margin: 1rem 0.5rem;
+  width: 8rem;
+  height: 1rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.button {
+  width: 7rem;
+  height: 2rem;
+  border: 1px solid #0d1be7;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: auto;
+  background-color: #0d1be7;
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list {
+  margin: 0.5rem 0.5rem;
+  color: #0d1be7;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.remove {
+  color: rgb(92, 37, 37);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.1rem;
+  background-color: orange;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 2rem;
+  align-items: center;
+}
+
+.span {
+  display: grid;
+  grid-template-columns: minmax();
+}
